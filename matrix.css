@@ -1,0 +1,141 @@
+* {
+    background-image: url('imagens/matrix.gif');
+    background-image:no-repeat;
+    font-family:'Wallpoet', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;       
+  }
+
+  .logoAlura {
+        margin-left: 10px;
+        padding-top: 10px;
+        width: 2%;
+        
+  }
+
+  main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+
+  .text-area {
+    border: none;
+    color: limegreen;       
+    margin-top: 90px;
+    text-transform: lowercase;  
+  }
+  
+  ::placeholder { color:green};
+        .text-area:focus{
+            outline: none;
+  }
+
+  .mensagem {
+    background-image: url(imagens/neoo.png);
+    opacity: 0.5;
+    background-color: transparent;
+    color: greenyellow;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+  
+  }
+  
+  .mensagem:focus {
+    outline: none;
+  }
+
+  .botoes {
+    display: flex;
+    margin-top: 18px;
+
+  }
+  
+  .btn-encriptar {
+    border: 2px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 53px;
+    margin-left: 30px;
+    width: 328px;
+    background:linear-gradient(black, darkred, red,black);
+    opacity: 0.7;
+    transition: background-color 0.4s ease-in-out;
+    box-shadow: 0px 10px 20px;
+  }
+  
+  .btn-encriptar:hover {
+    background:linear-gradient(green,lime,darkgreen);
+    border:black solid;
+    transition-duration: 0.2ms;
+    transform: matrix(2);
+    
+  }
+
+  .btn-desencriptar {
+    border: 2px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 53px;
+    margin-left: 30px;
+    width: 328px;
+    background:linear-gradient(black,darkblue,blue,black);
+    opacity: 0.7;
+    transition: background-color 0.4s ease-in-out;
+    box-shadow: 0px 10px 20px;
+
+  }
+
+  .btn-desencriptar:hover {
+    background-color: red;
+    background:linear-gradient(green,lime,darkgreen);
+    border:black solid;
+    transition-duration: 0.2ms;
+  }
+
+
+  .btn-copiar {
+    border: 2px solid black;
+    border-radius: 24px;
+    color: greenyellow;
+    cursor: pointer;
+    height: 53px;
+    margin-left: 30px;
+    margin-top: 600px;
+    width: 328px;
+    background:black;
+    opacity: 0.4;
+    transition: background-color 0.4s ease-in-out;
+    box-shadow: 0px 10px 20px;
+  }
+
+  .btn-copiar:hover {
+    background:linear-gradient(black,darkgreen,black,darkgreen);
+    border:black solid;
+    transition-duration: 0.2ms;
+  }
+
+  .btn-limpar {
+    border: 2px solid black;
+    border-radius: 24px;
+    color: limegreen;
+    cursor: pointer;
+    height: 53px;
+    margin-left: 30px;
+    background: linear-gradient(black,grey,black,black,grey);
+    box-shadow: 0px 10px 20px;
+    opacity: 0.4;
+  }
+
+  .informacao{
+    color: darkolivegreen;
+  }
+  
